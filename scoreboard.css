@@ -1,0 +1,105 @@
+
+                            /* CSS PRESETS */
+
+*, *::after, *::before{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: cursed;
+    src: url(/fonts/CursedTimerUlil-Aznm.ttf);
+  }
+
+
+                            /* STYLING FOR PAGE */
+
+body {
+    background-color: #111827;
+}
+
+.container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.team {
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 0px 0px 10px #111827;
+    padding: 2rem;
+
+}
+
+.score {
+    font-family: cursed, sans-serif;
+    color: red;
+    padding: 4rem 3.5rem;
+    background-color: #0a1322;
+    font-size: 4rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.points {
+    margin-top: 1.5rem;
+    padding: 0 0.75rem;
+}
+
+.points > button {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+    border: none;
+    transition: all ease-in .5s;
+    -webkit-transition: all ease-in .5s;
+    -moz-transition: all ease-in .5s;
+    -ms-transition: all ease-in .5s;
+    -o-transition: all ease-in .5s;
+}
+
+.points > button:hover {
+    background: rgb(83, 82, 82);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+
+#game-clear {
+    font-size: 4rem;
+    color: #0a1322;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    width: 500px;
+    margin: 5rem auto;
+    font-style: bold;
+    -webkit-transition: all ease-ins 0.5s;
+    -moz-transition: all ease-ins 0.5s;
+    -ms-transition: all ease-ins 0.5s;
+    -o-transition: all ease-ins 0.5s;
+    transition: all ease-ins 0.5s;
+}
+
+#game-clear:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
